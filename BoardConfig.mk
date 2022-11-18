@@ -20,6 +20,8 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG += vendor/xiaomi/perseus.config
+#TARGET_KERNEL_CLANG_VERSION := proton
+#TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton-clang
 
 # Partitions
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
